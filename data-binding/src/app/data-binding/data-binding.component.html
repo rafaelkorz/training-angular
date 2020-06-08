@@ -1,0 +1,14 @@
+<section>
+  <article>
+    <h3>Interpolação</h3>
+    <p>Strinf renderizada com Interpolação: {{url}} </p>
+    <p>Resultado de 1 + 1 e: {{1 + 1}} </p>
+    <p>Resultado de 1 + 1 não é  {{ 1 + 1 + getValor() }} </p>
+    <p>Curso de Anugular e gosto de curso: {{ cursoAngular && getCurtirCurso()}}  </p>
+  </article>
+
+  <article>
+    <img src="{{urlImage}}" > <br>
+    <img [src]="urlImage" >
+  </article>
+</section>
