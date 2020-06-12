@@ -1,1 +1,4 @@
-<app-data-binding></app-data-binding>
+<app-ciclo [valorInicial]="valor" *ngIf="!deletarCiclo"></app-ciclo>
+<button class="btn" (click)="mudarValor()">Mudar Valor</button>
+<button class="btn" (click)="destruirClico()">Deletar</button>
+<!-- <app-data-binding></app-data-binding> -->
